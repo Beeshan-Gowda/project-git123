@@ -1,0 +1,7 @@
+echo "# Automated-Deployment-Pipeline" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Beeshan-Gowda/Automated-Deployment-Pipeline.git
+git push -u origin main
